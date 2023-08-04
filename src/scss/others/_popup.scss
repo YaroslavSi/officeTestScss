@@ -1,0 +1,80 @@
+
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.popup_container {
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+.popup_container_active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-top: 400px;
+    z-index: 9999;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background-color: #bfbbbb;
+    opacity: 1;
+    pointer-events: all;
+    
+}
+
+
+.popup_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    border-radius: 12px;
+    background-color: #d0cdcd;
+    &_header {
+        color: #212121;
+        font-family: Bebas Neue;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .subscribing {
+        color: #01A3A4;
+        font-family: Bebas Neue;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &_line {
+        display: flex;
+        padding-left: 180px;
+        padding-top: 10px;
+        width: 48px;
+        height: 5px;
+    }
+    &_subheader {
+        padding-top: 10px;
+        width: 406px;
+        color: #000;
+        text-align: center;
+        font-family: Bebas Neue;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.2px;
+    }
+    &_button {
+        margin-top: 40px;
+        margin-left: 50px;
+        width: 280px;
+        height: 70px;
+        border: none;
+        border-radius: 20%;
+    }
+}

@@ -1,0 +1,76 @@
+.wrapperAbout {
+    max-height: 615px;
+    padding: 150px 205px 0 235px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    .about_firstSection {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        &_imgOne {
+            max-width: 270px;
+            max-height: 265px;
+        }
+        &_imgTwo {
+            width: 270px;
+            height: 140px;
+        }
+    }
+    .about_secondSection {
+        padding-top: 30px;
+        &_img {
+            max-width: 270px;
+            max-height: 345px;
+        }
+    }
+
+    .about_descr {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 20px;
+        &_tittle {
+            color: var(--gray-4, #BDBDBD);
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 64px;
+        }
+        &_details {
+            color: #000;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 25px;
+        }
+    }
+    .about_button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 222px;
+        height: 71px;
+        background: #FFF;
+        gap: 15px;
+        border: none;
+        &_tittle {
+            color: var(--gray-1, #333);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: 2.4px;
+            text-transform: uppercase;
+        }
+        &_pointer {
+            max-width: 24px;
+            max-height: 24px;
+        }
+    }
+    .about_button:hover {
+        transform: translate(300%, -200%);
+        transition: transform 0.9s ease;
+    }
+}

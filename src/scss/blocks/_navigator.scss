@@ -1,0 +1,113 @@
+.nav {
+    min-height: 102px;
+    padding: 0 269px 0 137px;
+    display: flex;
+    flex-direction: row;
+    gap: 330px;
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        order: 1;
+        &_img {
+            padding-top: 40px;
+        }
+        &_imgText {
+            padding-top: 5px;
+        }
+    }
+    
+    .logo_img:hover {
+        animation: heartbeat 3s infinite;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+        order: 2;
+        padding-top: 45px;
+        .hamburger {
+            display: flex;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown_content {
+            display: none;
+            list-style: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 180px;
+            height: 152px;
+            flex-shrink: 0;
+            background: #FFF;
+            box-shadow: 10px 10px 30px 0px rgba(1, 163, 164, 0.15);
+            z-index: 10;
+            &_text {
+                display: block;
+                padding: 10% 10%;
+                text-decoration: none;
+                color: #212121;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 3.5px;
+                text-transform: uppercase;
+            }
+        }
+        .menu_item:hover + .dropdown_content {
+            display: block;
+          }
+        .dropdown:hover .menu_item {
+            color: #01A3A4;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1.2px;
+            text-decoration: underline;
+        }
+        .menu_item:hover {
+            color: #01A3A4;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1.2px;
+            text-decoration: underline;
+        }
+        .right_h:hover {
+            transform: rotateX(180deg);
+        }
+        .left_h:hover {
+            transform: rotate(180deg);
+            transition: transform 0.3s ease;
+        }
+        &_item {
+            color: var(--gray-1, #333);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: 2.4px;
+            text-transform: uppercase;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .line {
+            display: flex;
+            flex-direction: column;
+            gap: 3.9px;
+            &_straight {
+                width: 68px;
+                height: 0.971px;
+                background: var(--gray-1, #333);
+            }
+        }
+    }
+}

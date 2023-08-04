@@ -1,0 +1,22 @@
+@import './others/popup';
+@import './others/animation';
+* {
+    font-family: 'TT Hoves', sans-serif;
+}
+button {
+    cursor: pointer;
+}
+// nav {
+//     position: fixed;
+//     z-index: 999;
+// }
+
+@import './blocks/navigator';
+@import './blocks/generalPage';
+@import './blocks/about';
+@import './blocks/mission';
+@import './blocks/projects';
+@import './blocks/form';
+@import './blocks/footer';
+@import './blocks/creators';
+@import './media';

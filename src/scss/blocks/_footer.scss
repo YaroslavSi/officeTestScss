@@ -1,0 +1,88 @@
+.wrapper {
+    height: 347px;
+    padding: 0 212px 0 116px;
+    display: flex;
+    flex-direction: row;
+    background: #2C2C2C;
+    padding-top: 58px;
+    &_logo {
+        width: 145px;
+        height: 94px;
+    }
+    &_menu {
+        display: flex;
+        flex-direction: column;
+        padding-left: 99px;
+        gap: 16px;
+        &_item {
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.42px;
+            text-decoration: none;
+            &_gen {
+                padding-bottom: 9px;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
+    &_contacts {
+        display: flex;
+        flex-direction: column;
+        padding-left: 147px;
+        gap: 30px;
+        &_header {
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &_item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 19px;
+            &_icon {
+                width: 16px;
+                height: 16px;
+            }
+            &_info {
+                text-decoration: none;
+                color: #FFF;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.42px;   
+            }
+        }
+    }
+    &_social {
+        display: flex;
+        flex-direction: column;
+        padding-left: 139px;
+        &_header {
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &_items {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 40px;
+            padding-top: 26px;
+            &_icon {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}

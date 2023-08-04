@@ -1,0 +1,1020 @@
+@media (max-width: 1343px) {
+    .nav {
+        padding: 0 50px 0 50px;
+        gap: 150px;
+        justify-content: center;
+    }
+    header {
+        padding: 43px 50px 0 50px;
+        gap: 50px;
+        .general_wrapper {
+            .tittle {
+                padding-top: 122px;
+            }
+        }
+
+        .card {
+            &_image {
+                max-width: 550px;
+                max-height: 829px;
+            }
+            &_rectangle {
+                top: 88.1%;
+            }
+        }
+    }
+    .wrapperAbout {
+        padding: 150px 50px 0 50px;
+        gap: 30px;
+        .about_descr {
+            &_tittle {
+                font-size: 50px;
+            }
+        }
+    }
+
+    .mission {
+        padding: 120px 50px 0 50px;
+        &_tittle {
+            text-align: center;
+            font-size: 56px;
+        }
+        &_cardContainer {
+            gap: 137px;
+            justify-content: center;
+            .mission_card {
+                &_descrOne {
+                    font-size: 18px;
+                }
+                &_descrTwo {
+                    font-size: 18px;
+                }
+            }
+        
+        }
+    }
+
+    .projects {
+        padding: 110px 50px 0 50px;
+        &_tittle {
+            font-size: 56px;
+        }
+        .projectsFirst {
+            gap: 10px;
+            justify-content: center;
+            &_wrapper {
+                .projectsFirst_img {
+                    max-width: 446px;
+                    max-height: 200px;
+                }
+                .projectsFirst_tittle {
+                    font-size: 45px;
+                }
+                .projectsFirst_button {
+                    &_tittle {
+                        font-size: 10px;
+                    }
+                }
+            }
+            .projectsFirst_two {
+                max-width: 446px;
+                max-height: 200px;
+            }
+        }
+        
+        .projectsSecondLine {
+            gap: 15px;
+            justify-content: center;
+            &_three {
+                max-width: 446px;
+                max-height: 200px;
+            }
+            &_four {
+                max-width: 446px;
+                max-height: 200px;
+            }
+            &_five {
+                max-width: 446px;
+                max-height: 200px;
+            }
+        }
+        .projects_button {
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+
+    .form_wrapper {
+        padding: 120px 50px 0 50px;
+        .form_tittle{
+            text-align: center;
+        }
+        .form {
+            justify-content: center;
+            .form_shape {
+                width: 350px;
+            } 
+            .form_text {
+                max-width: 391px;
+                height: 80px;
+            }
+            &_picture {
+                display: flex;
+                max-width: 502px;
+                height: 310px;
+            }
+        }
+        .form_apply {
+            margin: 0 auto;
+        }
+        .form_button {
+            margin: 0 auto;
+            margin-top: 21px;
+            margin-bottom: 120px;
+        }
+    }
+
+    .wrapper {
+        padding: 58px 50px 0 50px;
+        justify-content: center;
+        &_logo {
+            width: 110px;
+            height: 85px;
+        }
+        &_menu {
+            padding-left: 50px;
+        }
+        &_contacts {
+            padding-left: 100px;
+            gap: 30px;
+        }
+        &_social {
+            padding-left: 40px;
+        }
+    }
+}
+
+@media (max-width: 921px) {
+    .nav {
+        padding: 0 10px 0 10px;
+        gap: 30px;
+        .menu {
+            gap: 20px;
+            padding-top: 25px;
+        }
+    }
+    header {
+        padding: 23px 10px 0 10px;
+        gap: 30px;
+        .general_wrapper {
+            .tittle {
+                padding-top: 122px;
+                font-size: 50px;
+            }
+            .subttitle {
+                font-size: 50px;
+            }
+            .pointer {
+                padding: 30px 0 0 18.7px;
+            }
+            .page {
+                display: flex;
+                flex-direction: row;
+                gap: 26px;
+                padding-top: 30px;
+            }
+        }
+    
+        .card {
+            &_image {
+                max-width: 400px;
+                max-height: 400px;
+                z-index: 2;
+            }
+            &_rectangle {
+                top: 82.1%;
+            }
+        }
+    }
+
+    .wrapperAbout {
+        max-height: 615px;
+        padding: 100px 10px 0 10px;
+        gap: 15px;
+        .about_firstSection {
+            gap: 15px;
+            &_imgOne {
+                max-width: 220px;
+                max-height: 215px;
+            }
+            &_imgTwo {
+                width: 220px;
+                height: 90px;
+            }
+        }
+        .about_secondSection {
+            &_img {
+                max-width: 220px;
+                max-height: 295px;
+            }
+        }
+    
+        .about_descr {
+            gap: 15px;
+            &_tittle {
+                font-size: 32px;
+            }
+            &_details {
+                color: #000;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 25px;
+            }
+        }
+    }
+
+    .mission {
+        max-height: 386px;
+        padding: 70px 10px 0 10px;
+        &_tittle {
+            font-size: 36px;
+        }
+        &_cardContainer {
+            gap: 50px;
+            .mission_card {
+                &_number {
+                    font-size: 150px;
+                }
+                &_descrOne {
+                    font-size: 16px;
+                }
+                &_descrTwo {
+                    max-width: 420px;
+                    color: var(--gray-1, #333);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 36px;
+                }
+            }
+        
+        }
+    }
+    .projects {
+        padding: 110px 10px 0 10px;
+        &_tittle {
+            font-size: 36px;
+        }
+        .projectsFirst {
+            gap: 10px;
+            padding-top: 40px;
+            &_wrapper {
+                .projectsFirst_img {
+                    max-width: 470px;
+                    max-height: 155px;
+                }
+                .projectsFirst_tittle {
+                    font-size: 30px;
+                    line-height: 30px;
+                    left: 15%;
+                }
+            }
+            .projectsFirst_two {
+                max-width: 470px;
+                max-height: 155px;
+            }
+        }
+        
+        .projectsSecondLine {
+            gap: 10px;
+            padding-top: 15px;
+            &_three {
+                max-width: 170px;
+                max-height: 155px;
+            }
+            &_four {
+                max-width: 370px;
+                max-height: 155px;
+            }
+            &_five {
+                max-width: 270px;
+                max-height: 155px;
+            }
+        }
+        .projects_button {
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+    .form_wrapper {
+        padding: 100px 10px 0 10px;
+        .form {
+            gap: 15px;
+            padding-top: 22px;
+            align-items: center;
+            .form_shape {
+                padding-left: 21px;
+                width: 200px;
+                height: 45px;
+            }  
+            &_picture {
+                max-width: 350px;
+                height: 235px;
+            }
+        }
+    }
+
+    .wrapper {
+        padding: 58px 10px 0 10px;
+        &_logo {
+            width: 135px;
+            height: 84px;
+        }
+        &_menu {
+            padding-left: 20px;
+            gap: 16px;
+        }
+        &_contacts {
+
+            padding-left: 30px;
+        }
+        &_social {
+            padding-left: 20px;
+            &_items {
+                gap: 15px;
+            }
+        } 
+    }
+}
+
+@media (max-width: 718px) {
+    .nav {
+        padding: 0 5px 0 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .menu {
+            display: none;
+        }
+        .men {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        
+            .logo {
+                display: flex;
+                margin-left: -50%;
+                position: absolute;
+            }
+            .logo_img {
+                padding-top: 0;
+                
+            }
+            &_active {
+                display: flex;
+                position: fixed;
+                top: 0%;
+                gap: 35px;
+                left: 0;
+                width: 100%;
+                height: 100vh;
+                padding: 20px 15px;
+                background-color: #F0F8F6;
+                transition: 0.6s;
+                z-index: 999;
+                .menu {
+                    display: flex;
+                    flex-direction: column;
+                    order: 2;
+                    justify-content: center;
+                }
+            }
+        }
+        .hamburger {
+            padding-left: 50%;
+            position: absolute;
+            order: 2;
+            width: 30px;
+            height: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+            z-index: 999;
+            &_line {
+                width: 100%;
+                height: 3px;
+                background-color: #34495E;
+                transition: 0.5s all
+            }
+            &_active {
+                .hamburger_line{
+                    margin-bottom: -2px;
+                    &:nth-child(1) {
+                        transform: translateY(14px) rotate(-45deg)
+                    }
+                    &:nth-child(2) {
+                        display: none
+                    }
+                    &:nth-child(3) {
+                        transform: translateY(-5px) rotate(45deg)
+                    }
+                }
+            }
+                  
+        }
+    }
+
+    header {
+        padding: 43px 5px 0 5px;
+        gap: 30px;
+        align-items: center;
+        .general_wrapper {
+            .tittle {
+                padding-top: 50px;
+                font-size: 25px;
+                line-height: 35px;
+            }
+            .subttitle {
+                font-size: 25px;
+                line-height: 35px;
+            }
+            .pointer {
+                padding: 30px 0 0 0px;
+                margin: 0 auto;
+            }
+            .page {
+                display: flex;
+                flex-direction: row;
+                gap: 26px;
+                padding-top: 30px;
+                margin: 0 auto;
+                &_number_one {
+                    font-size: 15px;
+                }
+                &_devide {
+                    width: 35px;
+                    height: 15px;
+                }
+                &_number_two {
+                    font-size: 15px;
+                }
+            }
+        }
+    
+        .card {
+            &_image {
+                max-width: 220px;
+                max-height: 220px;
+            }
+            &_rectangle {
+                width: 100px;
+                height: 41px;
+                top: 84.1%;
+                left: -0.1%;
+                &_tittle {
+                    font-size: 8px;
+                    line-height: 8px;
+                }
+                &_pointer {
+                    max-width: 12px;
+                    max-height: 12px;
+                }
+            }
+        }
+    }
+
+    .wrapperAbout {
+        max-height: 615px;
+        padding: 100px 5px 0 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+        .about_firstSection {
+            gap: 10px;
+            &_imgOne {
+                max-width: 150px;
+                max-height: 215px;
+            }
+            &_imgTwo {
+                width: 150px;
+                height: 90px;
+            }
+        }
+        .about_secondSection {
+            &_img {
+                max-width: 150px;
+                max-height: 295px;
+            }
+        }
+    
+        .about_descr {
+            gap: 15px;
+            justify-content: center;
+            &_tittle {
+                font-size: 32px;
+                text-align: center;
+            }
+            &_details {
+                text-align: center;
+                color: #000;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 25px;
+            }
+        }
+        .about_button {
+            margin: 0 auto;
+        }
+    }
+
+    .mission {
+        max-height: 386px;
+        padding: 70px 5px 0 5px;
+        &_tittle {
+            font-size: 36px;
+        }
+        &_cardContainer {
+            gap: 20px;
+            flex-wrap: wrap;
+            .mission_card {
+                &_number {
+                    font-size: 150px;
+                }
+                &_descrOne {
+                    font-size: 14px;
+                }
+                &_descrTwo {
+                    max-width: 420px;
+                    color: var(--gray-1, #333);
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30px;
+                }
+            }
+        
+        }
+    }
+
+    .projects {
+        padding: 110px 5px 0 5px;
+        &_tittle {
+            font-size: 25px;
+        }
+        .projectsFirst {
+            gap: 10px;
+            padding-top: 40px;
+            &_wrapper {
+                .projectsFirst_img {
+                    max-width: 190px;
+                    max-height: 155px;
+                }
+                .projectsFirst_tittle {
+                    font-size: 30px;
+                    line-height: 30px;
+                    left: 15%;
+                }
+            }
+            .projectsFirst_two {
+                max-width: 190px;
+                max-height: 155px;
+            }
+        }
+        
+        .projectsSecondLine {
+            gap: 10px;
+            padding-top: 15px;
+            &_three {
+                max-width: 124px;
+                max-height: 155px;
+            }
+            &_four {
+                max-width: 124px;
+                max-height: 155px;
+            }
+            &_five {
+                max-width: 123px;
+                max-height: 155px;
+            }
+        }
+        .projects_button {
+            margin: 0 auto;
+            margin-top: 30px;
+            height: 50px;
+        }
+    }
+
+    .form_wrapper {
+        padding: 100px 5px 0 5px;
+        .form {
+            gap: 15px;
+            padding-top: 22px;
+            align-items: center;
+            flex-wrap: wrap;
+            .form_shape {
+                padding-left: 21px;
+                width: 300px;
+                height: 45px;
+            }  
+            &_picture {
+                max-width: 350px;
+                height: 235px;
+            }
+        }
+        .form_button {
+            margin-bottom: 120px;
+            height: 50px;
+        }
+    }
+
+    .wrapper {
+        padding: 30px 5px 0 5px;
+        flex-direction: column;
+        min-height: 420px;
+        &_logo {
+            margin: 0 auto;
+            width: 130px;
+            height: 84px;
+            order: 1;
+        }
+        &_menu {
+            display: none;
+        }
+        &_contacts {
+            padding-top: 4%;
+            justify-content: center;
+            align-items: center;
+            padding-left: 0;
+            order: 2;
+        }
+        &_social {
+            padding-top: 4%;
+            padding-left: 0px;
+            margin: 0 auto;
+            order: 3;
+            &_items {
+                gap: 15px;
+            }
+        } 
+    }
+}
+
+@media (max-width: 408px) {
+    header {
+        .general_wrapper {
+            .pointer {
+                gap: 20px;
+            }
+            .page {
+                gap: 5px;
+                &_number_one {
+                    font-size: 15px;
+                }
+                &_devide {
+                    width: 35px;
+                    height: 15px;
+                }
+                &_number_two {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .mission {
+        max-height: 510px;
+    }
+    .projects {
+        padding: 110px 0px 0 0px;
+        .projectsFirst {
+            gap: 5px;
+            padding-top: 30px;
+            &_wrapper {
+                .projectsFirst_img {
+                    max-width: 160px;
+                }
+                .projectsFirst_tittle {
+                    font-size: 15px;
+                    line-height: 15px;
+                }
+                .projectsFirst_button {
+                    &_tittle {
+                        font-size: 10px;
+                    }
+                    &_pointer {
+                        max-width: 10px;
+                        max-height: 10px;
+                    }
+                }
+            }
+            .projectsFirst_two {
+                max-width: 160px;
+            }
+        }
+        
+        .projectsSecondLine {
+            gap: 5px;
+            padding-top: 15px;
+            &_three {
+                max-width: 104px;
+                max-height: 120px;
+            }
+            &_four {
+                max-width: 104px;
+                max-height: 120px;
+            }
+            &_five {
+                max-width: 105px;
+                max-height: 155px;
+            }
+        }
+        .projects_button {
+            margin: 0 auto;
+            margin-top: 30px;
+            height: 50px;
+        }
+    }
+    .form_wrapper {
+        .form_apply {
+            padding-left: 0;
+        }
+    }
+}
+
+@media (max-width: 368px) {
+    header {
+        gap: 15px;
+        .general_wrapper {
+            .tittle {
+                text-align: center;
+                font-size: 15px;
+                line-height: 30px;
+            }
+            .subttitle {
+                font-size: 15px;
+                line-height: 30px;
+            }
+            .pointer {
+                padding: 15px 0 0 0px;
+                margin: 0 auto;
+            }
+            .page {
+                gap: 10px;
+                padding-top: 15px;
+                text-align: center;
+                &_number_one {
+                    font-size: 10px;
+                }
+                &_devide {
+                    width: 25px;
+                    height: 20px;
+                }
+                &_number_two {
+                    font-size: 10px;
+                }
+            }
+        }
+    
+        .card {
+            &_image {
+                max-width: 175px;
+                max-height: 175px;
+            }
+            &_rectangle {
+                width: 100px;
+                height: 41px;
+                top: 83.1%;
+                left: -0.1%;
+                &_tittle {
+                    font-size: 8px;
+                    line-height: 8px;
+                }
+                &_pointer {
+                    max-width: 12px;
+                    max-height: 12px;
+                }
+            }
+        }
+    }
+
+    .wrapperAbout {
+        max-height: 615px;
+        padding: 100px 5px 0 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+        .about_firstSection {
+            gap: 10px;
+            &_imgOne {
+                max-width: 110px;
+                max-height: 165px;
+            }
+            &_imgTwo {
+                width: 110px;
+                height: 50px;
+            }
+        }
+        .about_secondSection {
+            &_img {
+                max-width: 100px;
+                max-height: 255px;
+            }
+        }
+    
+        .about_descr {
+            gap: 15px;
+            justify-content: center;
+            &_tittle {
+                font-size: 32px;
+                text-align: center;
+            }
+            &_details {
+                text-align: center;
+                color: #000;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 25px;
+            }
+        }
+        .about_button {
+            margin: 0 auto;
+        }
+    }
+
+    .mission {
+        max-height: 750px;
+        &_tittle {
+            font-size: 25px;
+        }
+        &_cardContainer {
+            gap: 20px;
+            flex-wrap: wrap;
+            .mission_card {
+                &_number {
+                    font-size: 150px;
+                }
+                &_descrOne {
+                    font-size: 14px;
+                }
+                &_descrTwo {
+                    max-width: 420px;
+                    color: var(--gray-1, #333);
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30px;
+                }
+            }
+        
+        }
+    }
+
+    .projects {
+        &_tittle {
+            text-align: center;
+        }
+        .projectsFirst {
+            &_wrapper {
+                .projectsFirst_img {
+                    max-width: 140px;
+                }
+                .projectsFirst_tittle {
+                    font-size: 13px;
+                }
+                .projectsFirst_button {
+                    left: 12%;
+                    &_tittle {
+                        font-size: 10px;
+                    }
+                    &_pointer {
+                        max-width: 10px;
+                        max-height: 10px;
+                    }
+                }
+            }
+            .projectsFirst_two {
+                max-width: 140px;
+            }
+        }
+        
+        .projectsSecondLine {
+            padding-top: 10px;
+            &_three {
+                max-width: 93px;
+            }
+            &_four {
+                max-width: 90px;
+            }
+            &_five {
+                max-width: 90px;
+            }
+        }
+    }
+
+    .form_wrapper {
+        .form_tittle {
+            font-size: 29px;
+        }
+        .form_apply {
+            display: none;
+        }
+        .form {
+            gap: 15px;
+            padding-top: 22px;
+            align-items: center;
+            flex-wrap: wrap;
+            .form_shape {
+                padding-left: 21px;
+                width: 240px;
+                height: 40px;
+            }  
+            &_picture {
+                max-width: 250px;
+                height: 150px;
+            }
+        }
+        .form_button {
+            margin-bottom: 120px;
+            height: 50px;
+        }
+    }
+}
+
+
+@media (max-width: 2560px) {
+    .nav {
+        gap: 70px;
+        justify-content: center;
+        .men {
+            display: flex;
+            flex-direction: row;
+            gap: 30%
+        }
+        .logo {
+
+            justify-content: start;
+        }
+    }
+
+    header {
+        align-items: center;
+        .general_wrapper {
+        }
+    }
+
+    .wrapperAbout {
+        justify-content: center;
+    }
+
+    .mission {
+        &_tittle {
+            text-align: center;
+        }
+        &_cardContainer {
+            justify-content: center;
+            .mission_card {
+            }
+        
+        }
+    }
+
+    .projects {
+        &_tittle {
+            text-align: center;
+        }
+        .projectsFirst {
+            justify-content: center;
+        }
+        .projectsSecondLine {
+            justify-content: center;
+        }
+        .projects_button {
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+
+    .form_wrapper {
+        .form_tittle {
+            text-align: center;
+        }
+        .form {
+            justify-content: center;
+            align-items: center;
+        }
+        .form_button {
+            margin: 0 auto;
+            margin-bottom: 120px;
+            margin-top: 30px;
+        }
+        .form_apply {
+            margin: 0 auto;
+        }
+    }
+
+    .wrapper {
+        justify-content: center;
+    }
+}
