@@ -1,16 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import lindua from '../../assets/svg/logo/lindua.svg';
 import digitalText from '../../assets/svg/logo/digitalProject.svg';
+import WOW from 'wowjs';
 
 const Navigator = (props) => {
     const [hamburgerIsOpen, setHamburgerOpen] = useState(false);
     const [menu, setMenu] = useState(false);
+    useEffect(() => {
+        const wow = new WOW.WOW();
+        wow.init();
+      }, []);
     let handleHamburgerClick = () => {
         setHamburgerOpen(!hamburgerIsOpen);
         setMenu(!hamburgerIsOpen);
     };
     return (
-        <nav className="nav">
+        <nav className="nav wow animate__backInDown" data-wow-duration="1s">
             <div className={menu ? 'men' + ' ' + 'men_active' : "men"}>
                 <div className="logo">
                     <img className="logo_img" src={lindua} alt="lindua" />

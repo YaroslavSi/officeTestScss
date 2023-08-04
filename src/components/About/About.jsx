@@ -3,12 +3,18 @@ import pointerRight from '../../assets/icons/generalPage/arrow_right.svg';
 import firstTower from '../../assets/images/about/firstTower.png';
 import secondTower from '../../assets/images/about/secondTower.png';
 import thirdTower from '../../assets/images/about/thirdTower.png';
+import WOW from 'wowjs';
+import { useEffect } from "react";
 
 
 
 const About = (props) => {
+    useEffect(() => {
+        const wow = new WOW.WOW();
+        wow.init();
+      }, []);
     return (
-        <article className="wrapperAbout" id="gallery">
+        <article className="wrapperAbout wow animate__fadeInLeftBig" data-wow-duration="1s" id="gallery">
             <div className="about_firstSection">
                 <img className="about_firstSection_imgOne" src={firstTower} alt="officeTower" />
                 <img className="about_firstSection_imgTwo" src={secondTower} alt="officeCompanyTower" />

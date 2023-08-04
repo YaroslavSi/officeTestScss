@@ -4,28 +4,31 @@ import pointerLeft from '../../assets/icons/generalPage/arrow_left.svg';
 import office from '../../assets/images/generalPage/office.png';
 import line from '../../assets/icons/generalPage/line.png';
 import WOW from 'wowjs';
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 
 let calcValue = () => {
     console.log('random');
-
     return  (50 - 1) + 1;
 };
-// const countTotal = (num) => {
-//     return num + 11;
-// }
 const total = 100;
+
+
 const GeneralPage = (props) => {
     const [slide, setSlide] = useState(calcValue);
-    const [state, setState] = useState ({slide: 5, autoplay: false});
+    const [images, setImages] = useState([]);
+    useEffect(() => {
+        const wow = new WOW.WOW();
+        wow.init();
+      }, []);
     
+
     function changeSlide (i) {
         setSlide(slide => slide + i);
     };
 
     
     return (
-        <header>
+        <header className="wow animate__backInDown" data-wow-duration="2s">
             <div className="general_wrapper" id="homePage">
                 <div className="tittle">PROJECT <br></br> <span className="subttitle">HOME</span></div>
                 <div className="pointer">

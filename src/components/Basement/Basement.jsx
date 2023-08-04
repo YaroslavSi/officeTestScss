@@ -7,10 +7,16 @@ import pinterest from '../../assets/icons/footer/pinterest.svg';
 import geo from '../../assets/icons/footer/geo.svg';
 import phone from '../../assets/icons/footer/phone.svg';
 import mail from '../../assets/icons/footer/mail.svg';
+import WOW from 'wowjs';
+import { useEffect } from "react";
 
 const Basement = (props) => {
+    useEffect(() => {
+        const wow = new WOW.WOW();
+        wow.init();
+      }, []);
     return (
-        <footer>
+        <footer className="wow animate__jackInTheBox" data-wow-duration="1s">
             <div className="wrapper" id="contacts">
                 <img className="wrapper_logo" src={logo} alt="logo" />
                 <div className="wrapper_menu">

@@ -1,11 +1,16 @@
 import React from "react";
 import caller from '../../assets/images/form/caller.png';
 import pointerRight from '../../assets/icons/arrow_white.png';
-
+import { useEffect } from "react";
+import WOW from 'wowjs';
 
 const Form = (props) => {
+    useEffect(() => {
+        const wow = new WOW.WOW();
+        wow.init();
+      }, []);
     return (
-        <section className="form_wrapper">
+        <section className="form_wrapper wow animate__rollIn" data-wow-duration="2s">
             <div className="form_tittle">Связаться с нами</div>
             <div className="form">
                 <div className="form_item">

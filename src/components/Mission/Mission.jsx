@@ -1,8 +1,14 @@
 import React from "react";
+import WOW from 'wowjs';
+import { useEffect } from "react";
 
 const Mission = (props) => {
+    useEffect(() => {
+        const wow = new WOW.WOW();
+        wow.init();
+      }, []);
     return (
-        <section className="mission" id="certificate">
+        <section className="mission wow animate__flipInX" id="certificate" data-wow-duration="2s" >
             <div className="mission_tittle">Основные задачи</div>
             <div className="mission_cardContainer">
                 <div className="mission_card">
