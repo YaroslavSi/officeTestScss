@@ -1,0 +1,80 @@
+@media (max-width: 408px) {
+    header {
+        .general_wrapper {
+            .pointer {
+                gap: 20px;
+            }
+            .page {
+                gap: 5px;
+                &_number_one {
+                    font-size: 15px;
+                }
+                &_devide {
+                    width: 35px;
+                    height: 15px;
+                }
+                &_number_two {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .mission {
+        max-height: 510px;
+    }
+    .projects {
+        padding: 110px 0px 0 0px;
+        .projectsFirst {
+            gap: 5px;
+            padding-top: 30px;
+            &_wrapper {
+                .projectsFirst_img {
+                    max-width: 160px;
+                }
+                .projectsFirst_tittle {
+                    font-size: 15px;
+                    line-height: 15px;
+                }
+                .projectsFirst_button {
+                    &_tittle {
+                        font-size: 10px;
+                    }
+                    &_pointer {
+                        max-width: 10px;
+                        max-height: 10px;
+                    }
+                }
+            }
+            .projectsFirst_two {
+                max-width: 160px;
+            }
+        }
+        
+        .projectsSecondLine {
+            gap: 5px;
+            padding-top: 15px;
+            &_three {
+                max-width: 104px;
+                max-height: 120px;
+            }
+            &_four {
+                max-width: 104px;
+                max-height: 120px;
+            }
+            &_five {
+                max-width: 105px;
+                max-height: 155px;
+            }
+        }
+        .projects_button {
+            margin: 0 auto;
+            margin-top: 30px;
+            height: 50px;
+        }
+    }
+    .form_wrapper {
+        .form_apply {
+            padding-left: 0;
+        }
+    }
+}

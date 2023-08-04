@@ -1,0 +1,75 @@
+@media (max-width: 2560px) {
+    .nav {
+        gap: 70px;
+        justify-content: center;
+        .men {
+            display: flex;
+            flex-direction: row;
+            gap: 30%
+        }
+        .logo {
+
+            justify-content: start;
+        }
+    }
+
+    header {
+        align-items: center;
+        .general_wrapper {
+        }
+    }
+
+    .wrapperAbout {
+        justify-content: center;
+    }
+
+    .mission {
+        &_tittle {
+            text-align: center;
+        }
+        &_cardContainer {
+            justify-content: center;
+            .mission_card {
+            }
+        
+        }
+    }
+
+    .projects {
+        &_tittle {
+            text-align: center;
+        }
+        .projectsFirst {
+            justify-content: center;
+        }
+        .projectsSecondLine {
+            justify-content: center;
+        }
+        .projects_button {
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+
+    .form_wrapper {
+        .form_tittle {
+            text-align: center;
+        }
+        .form {
+            justify-content: center;
+            align-items: center;
+        }
+        .form_button {
+            margin: 0 auto;
+            margin-bottom: 120px;
+            margin-top: 30px;
+        }
+        .form_apply {
+            margin: 0 auto;
+        }
+    }
+
+    .wrapper {
+        justify-content: center;
+    }
+}

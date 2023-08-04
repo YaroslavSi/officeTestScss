@@ -1,0 +1,193 @@
+@media (max-width: 921px) {
+    .nav {
+        padding: 0 10px 0 10px;
+        gap: 30px;
+        .menu {
+            gap: 20px;
+            padding-top: 25px;
+        }
+    }
+    header {
+        padding: 23px 10px 0 10px;
+        gap: 30px;
+        .general_wrapper {
+            .tittle {
+                padding-top: 122px;
+                font-size: 50px;
+            }
+            .subttitle {
+                font-size: 50px;
+            }
+            .pointer {
+                padding: 30px 0 0 18.7px;
+            }
+            .page {
+                display: flex;
+                flex-direction: row;
+                gap: 26px;
+                padding-top: 30px;
+            }
+        }
+    
+        .card {
+            &_image {
+                max-width: 400px;
+                max-height: 400px;
+                z-index: 2;
+            }
+            &_rectangle {
+                top: 82.1%;
+            }
+        }
+    }
+
+    .wrapperAbout {
+        max-height: 615px;
+        padding: 100px 10px 0 10px;
+        gap: 15px;
+        .about_firstSection {
+            gap: 15px;
+            &_imgOne {
+                max-width: 220px;
+                max-height: 215px;
+            }
+            &_imgTwo {
+                width: 220px;
+                height: 90px;
+            }
+        }
+        .about_secondSection {
+            &_img {
+                max-width: 220px;
+                max-height: 295px;
+            }
+        }
+    
+        .about_descr {
+            gap: 15px;
+            &_tittle {
+                font-size: 32px;
+            }
+            &_details {
+                color: #000;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 25px;
+            }
+        }
+    }
+
+    .mission {
+        max-height: 386px;
+        padding: 70px 10px 0 10px;
+        &_tittle {
+            font-size: 36px;
+        }
+        &_cardContainer {
+            gap: 50px;
+            .mission_card {
+                &_number {
+                    font-size: 150px;
+                }
+                &_descrOne {
+                    font-size: 16px;
+                }
+                &_descrTwo {
+                    max-width: 420px;
+                    color: var(--gray-1, #333);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 36px;
+                }
+            }
+        
+        }
+    }
+    .projects {
+        padding: 110px 10px 0 10px;
+        &_tittle {
+            font-size: 36px;
+        }
+        .projectsFirst {
+            gap: 10px;
+            padding-top: 40px;
+            &_wrapper {
+                .projectsFirst_img {
+                    max-width: 470px;
+                    max-height: 155px;
+                }
+                .projectsFirst_tittle {
+                    font-size: 30px;
+                    line-height: 30px;
+                    left: 15%;
+                }
+            }
+            .projectsFirst_two {
+                max-width: 470px;
+                max-height: 155px;
+            }
+        }
+        
+        .projectsSecondLine {
+            gap: 10px;
+            padding-top: 15px;
+            &_three {
+                max-width: 170px;
+                max-height: 155px;
+            }
+            &_four {
+                max-width: 370px;
+                max-height: 155px;
+            }
+            &_five {
+                max-width: 270px;
+                max-height: 155px;
+            }
+        }
+        .projects_button {
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+    .form_wrapper {
+        padding: 100px 10px 0 10px;
+        .form {
+            gap: 15px;
+            padding-top: 22px;
+            align-items: center;
+            .form_shape {
+                padding-left: 21px;
+                width: 200px;
+                height: 45px;
+            }  
+            &_picture {
+                max-width: 350px;
+                height: 235px;
+            }
+        }
+    }
+
+    .wrapper {
+        padding: 58px 10px 0 10px;
+        &_logo {
+            width: 135px;
+            height: 84px;
+        }
+        &_menu {
+            padding-left: 20px;
+            gap: 16px;
+        }
+        &_contacts {
+
+            padding-left: 30px;
+        }
+        &_social {
+            padding-left: 20px;
+            &_items {
+                gap: 15px;
+            }
+        } 
+    }
+}

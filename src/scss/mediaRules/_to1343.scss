@@ -1,0 +1,155 @@
+@media (max-width: 1343px) {
+    .nav {
+        padding: 0 50px 0 50px;
+        gap: 150px;
+        justify-content: center;
+    }
+    header {
+        padding: 43px 50px 0 50px;
+        gap: 50px;
+        .general_wrapper {
+            .tittle {
+                padding-top: 122px;
+            }
+        }
+
+        .card {
+            &_image {
+                max-width: 550px;
+                max-height: 829px;
+            }
+            &_rectangle {
+                top: 88.1%;
+            }
+        }
+    }
+    .wrapperAbout {
+        padding: 150px 50px 0 50px;
+        gap: 30px;
+        .about_descr {
+            &_tittle {
+                font-size: 50px;
+            }
+        }
+    }
+
+    .mission {
+        padding: 120px 50px 0 50px;
+        &_tittle {
+            text-align: center;
+            font-size: 56px;
+        }
+        &_cardContainer {
+            gap: 137px;
+            justify-content: center;
+            .mission_card {
+                &_descrOne {
+                    font-size: 18px;
+                }
+                &_descrTwo {
+                    font-size: 18px;
+                }
+            }
+        
+        }
+    }
+
+    .projects {
+        padding: 110px 50px 0 50px;
+        &_tittle {
+            font-size: 56px;
+        }
+        .projectsFirst {
+            gap: 10px;
+            justify-content: center;
+            &_wrapper {
+                .projectsFirst_img {
+                    max-width: 446px;
+                    max-height: 200px;
+                }
+                .projectsFirst_tittle {
+                    font-size: 45px;
+                }
+                .projectsFirst_button {
+                    &_tittle {
+                        font-size: 10px;
+                    }
+                }
+            }
+            .projectsFirst_two {
+                max-width: 446px;
+                max-height: 200px;
+            }
+        }
+        
+        .projectsSecondLine {
+            gap: 15px;
+            justify-content: center;
+            &_three {
+                max-width: 446px;
+                max-height: 200px;
+            }
+            &_four {
+                max-width: 446px;
+                max-height: 200px;
+            }
+            &_five {
+                max-width: 446px;
+                max-height: 200px;
+            }
+        }
+        .projects_button {
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+
+    .form_wrapper {
+        padding: 120px 50px 0 50px;
+        .form_tittle{
+            text-align: center;
+        }
+        .form {
+            justify-content: center;
+            .form_shape {
+                width: 350px;
+            } 
+            .form_text {
+                max-width: 391px;
+                height: 80px;
+            }
+            &_picture {
+                display: flex;
+                max-width: 502px;
+                height: 310px;
+            }
+        }
+        .form_apply {
+            margin: 0 auto;
+        }
+        .form_button {
+            margin: 0 auto;
+            margin-top: 21px;
+            margin-bottom: 120px;
+        }
+    }
+
+    .wrapper {
+        padding: 58px 50px 0 50px;
+        justify-content: center;
+        &_logo {
+            width: 110px;
+            height: 85px;
+        }
+        &_menu {
+            padding-left: 50px;
+        }
+        &_contacts {
+            padding-left: 100px;
+            gap: 30px;
+        }
+        &_social {
+            padding-left: 40px;
+        }
+    }
+}
